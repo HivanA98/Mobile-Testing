@@ -1,9 +1,7 @@
-Mobile Testing
-
+MOBILE TESTING
+Preinstall
 
 # Appium
-
-Preinstall
 - npm install -g appium
 - pip install Appium-Python-Client
 - npm install -g appium-doctor
