@@ -17,4 +17,4 @@ Open Test Application
     Open Application    ${REMOTE_URL}  platformName=${platformName}  deviceName=${deviceName}  appPackage=${appPackage}  appActivity=${appActivity}  udid=${udid}  platformVersion=${platformVersion}  automationName=${automationName}
 
 Click Number 1
-    Click Button    ${One}
+    Click Element    id=com.google.android.calculator:id/digit_1
