@@ -1,5 +1,5 @@
 *** Settings ***
-Resource    CalculatorResource.py
+Variables    CalculatorResource.py
 Library    AppiumLibrary
 
 *** Variables ***
@@ -16,5 +16,14 @@ ${automationName}    UiAutomator2
 Open Test Application
     Open Application    ${REMOTE_URL}  platformName=${platformName}  deviceName=${deviceName}  appPackage=${appPackage}  appActivity=${appActivity}  udid=${udid}  platformVersion=${platformVersion}  automationName=${automationName}
 
-Click Number 1
-    Click Element    id=com.google.android.calculator:id/digit_1
+Click Angka
+    Click Element    ${one}
+    Click Element    ${two}
+    Click Element    ${three}
+    Click Element    ${four}
+    Click Element    ${five}
+    Click Element    ${six}
+    Click Element    ${seven}
+    Click Element    ${eight}
+    Click Element    ${nine}
+    Click Element    ${zero}
