@@ -1,8 +1,9 @@
 *** Settings ***
 Library    Appiumlibrary
-Resource    CalculatorStep.robot
-
-
-
+Resource    SosomallStep.robot
 
 *** Test Cases ***
+SearchItem
+    Setup Keyword
+    Profile
+    Login
