@@ -5,4 +5,6 @@ Resource    CalculatorStep.robot
 *** Test Cases ***
 First Test
     Open Test Application
-    Click Angka
+    Click Xpath
+    Click Class
+    Click tas

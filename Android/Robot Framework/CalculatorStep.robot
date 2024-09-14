@@ -20,10 +20,10 @@ Click Angka
     Click Element    ${one}
     Click Element    ${two}
     Click Element    ${three}
-    Click Element    ${four}
-    Click Element    ${five}
-    Click Element    ${six}
-    Click Element    ${seven}
-    Click Element    ${eight}
-    Click Element    ${nine}
-    Click Element    ${zero}
+
+Click Xpath
+    Click Element    ${Xpath8}
+
+Click Class
+    Click Element    ${Class8}
+    
