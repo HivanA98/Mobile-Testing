@@ -17,6 +17,7 @@ Setup Keyword
     Open Application    ${REMOTE_URL}  platformName=${platformName}  deviceName=${deviceName}  appPackage=${appPackage}  appActivity=${appActivity}  udid=${udid}  platformVersion=${platformVersion}  automationName=${automationName}
 
 Login
+    Click Element    ${SosomallDollar}
     Input Text   ${idbt}    ${ID}
     Input Text    ${PassBt}    ${Pass}
     Click Element    ${SubmitBtn}
@@ -26,4 +27,12 @@ SearchItem
 
 Profile
     Click Element    ${SosomallDollar}
+
+Testing
+    wait until page contains element    ${SearchBtn}
+    Click Element    ${ProfileBtn}
+    # Click Element    ${CartBtn}
+    Click Element    ${MassageBtn}
+    Click Element    ${HomeBtn}
+    Click Element    ${KolPage}
     

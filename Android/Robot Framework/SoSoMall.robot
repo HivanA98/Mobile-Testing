@@ -1,9 +1,9 @@
 *** Settings ***
 Library    Appiumlibrary
-Resource    SosomallStep.robot
+Resource    SosomallStep12.robot
 
 *** Test Cases ***
 SearchItem
     Setup Keyword
-    Profile
     Login
+    Testing
