@@ -7,7 +7,7 @@ BackBtn = 'id=00000000-0000-001a-ffff-ffff000000c2'
 MsgBtn = 'id=00000000-0000-001e-ffff-ffff00000163'
 
 #MainButton
-HomeBtn = '//android.view.View[@content-desc=""]'
+HomeBtn = '//android.view.View[@content-desc="" and @index="0"]'
 MassageBtn = '//android.view.View[@content-desc="󰆉" and @index="1"]'
 CartBtn = '//android.view.View[@content-desc="" and @index="2"]'
 ProfileBtn = '//android.view.View[@content-desc="" and @index="3"]'
@@ -38,3 +38,6 @@ SubmitBtn = '//android.view.ViewGroup[@content-desc="登入搶購優惠"]'
 #Credintial
 ID = '12388888'
 Pass = 'RaRa!2#4'
+
+#Product
+FirstProduct = 'class=android.widget.ImageView'
