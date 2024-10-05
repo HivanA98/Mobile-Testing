@@ -17,7 +17,9 @@ Setup Keyword
     Open Application    ${REMOTE_URL}  platformName=${platformName}  deviceName=${deviceName}  appPackage=${appPackage}  appActivity=${appActivity}  udid=${udid}  platformVersion=${platformVersion}  automationName=${automationName}
 
 Login
+    Wait Until Element Is Visible    ${SosomallDollar}    5000
     Click Element    ${SosomallDollar}
+    Wait Until Element Is Visible    ${idbt}    5000
     Input Text   ${idbt}    ${ID}
     Input Text    ${PassBt}    ${Pass}
     Click Element    ${SubmitBtn}
@@ -29,14 +31,14 @@ Profile
     Click Element    ${SosomallDollar}
 
 Testing
-    wait until page contains element    ${SearchBtn}
+    Wait Until Element Is Visible    ${SearchBtn}    5000
     Click Element    ${ProfileBtn}
-    wait until page contains element    ${SearchBtn}
+    Wait Until Element Is Visible    ${HomeBtn}    5000
     Click Element    ${CartBtn}
-    wait until page contains element    ${SearchBtn}
+    Wait Until Element Is Visible    ${HomeBtn}    5000
     Click Element    ${MassageBtn}
-    wait until page contains element    ${SearchBtn}
+    Wait Until Element Is Visible    ${HomeBtn}    5000
     Click Element    ${HomeBtn}
-    wait until page contains element    ${SearchBtn}
+    Wait Until Element Is Visible    ${FirstProduct}    5000
     Click Element    ${KolPage}
     
